@@ -7,7 +7,7 @@ using namespace std;
 bool visited[101][101];
 
 void solve(vector<vector<int>>& grid){
-	//we already know that distance to a gate itself is 0
+	//we already know that distance to a gate from itself is 0
 	queue<pair<int, int>> q;
 	int n = grid.size();
 	if(n == 0) return;
