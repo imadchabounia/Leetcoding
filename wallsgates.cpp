@@ -6,6 +6,8 @@ using namespace std;
 
 bool visited[101][101];
 
+//Assumption : range(n) = range(m) = [0, 100] 
+
 void solve(vector<vector<int>>& grid){
 	//we already know that distance to a gate from itself is 0
 	queue<pair<int, int>> q;
