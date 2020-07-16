@@ -18,7 +18,7 @@ class Solution {
             n = -n;
         }
         double left = myPow(x, n/2);
-        double right = myPow(x, n/2);
+	double right = left;
         if(n%2 == 1){
             right *= x;
         }
