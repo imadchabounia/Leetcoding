@@ -1,4 +1,3 @@
-//Same Algorithm with C++ will lead to a TLE
 class Solution {
     
     private int[] dx = {1, -1, 0, 0};
